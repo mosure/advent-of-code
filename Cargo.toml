@@ -1,0 +1,18 @@
+[package]
+name = "advent-of-code"
+description = "advent-of-code 2023"
+version = "0.1.0"
+edition = "2021"
+authors = ["mosure <mitchell@mosure.me>"]
+license = "MIT"
+keywords = []
+categories = []
+homepage = "https://github.com/mosure/advent-of-code"
+repository = "https://github.com/mosure/advent-of-code"
+readme = "README.md"
+exclude = [".devcontainer", ".github", "docs", "dist", "build", "assets", "credits"]
+
+
+[[bin]]
+name = "1"
+path = "days/1.rs"
