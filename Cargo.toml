@@ -16,3 +16,7 @@ exclude = [".devcontainer", ".github", "docs", "dist", "build", "assets", "credi
 [[bin]]
 name = "1"
 path = "days/1.rs"
+
+[[bin]]
+name = "2"
+path = "days/2.rs"
